@@ -457,7 +457,7 @@ a{
 }
 
 
-@media (max-width:1300px){
+@media (max-width: 768px) and (max-width:1300px ){
    .hero-section-right{
     display: none;
    }
@@ -498,9 +498,11 @@ a{
     .project-Heading{
         font-size:40px;
         width: 100%;
+        
     }
     .project-subHeading{
         width: 100%;
+        font-size: small;
     }
     #project2{
         margin-left:0;
